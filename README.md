@@ -1,1 +1,2 @@
-# ada_exercices_individuel
+# ada_exercices_individuels
+Read me exercices individuels
