@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouve le nombre</title>
+
+</head>
+<body>
+    
+    <h1>Jeu - Trouve le nombre</h1>
+    <br>
+    <h2>Rappel des régles : Joueur 1 choisit un nombre, Joueur 2 essaye de le deviner</h2>
+
+    <div id="joueur1">
+    <label for="number" id="label1">Joueur 1 choisit un nombre (entre 0 et 50)</label>
+    <input id="number1" type="number" value="1" min="0" max="50">
+    <button id="submit1">Validé</button>
+    </div>
+
+    <br>
+
+    <div id="joueur2" style="display:none;">
+    <label>Joueur 2 devine le nombre de Joueur 1</label>
+    <h3 id="range"></h3>
+    <input id="number2" type="number" value="1" min="0" max="50">
+    <button id="submit2">Validé</button>
+    </div>
+
+    <br>
+    
+    <div id="resultat" style="display:none;">
+    <h2>Résultat</h2>
+    <p></p>
+    </div>
+    
+    <script src="exercice_individuel_2.js"></script>
+    
+</body>
+</html>
